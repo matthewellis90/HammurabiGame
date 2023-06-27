@@ -4,6 +4,24 @@
 # https://aka.ms/yaml
 
 trigger:
-    branches:
-        include:
-            - main
+    - none
+
+pool: 
+    vmImage: 'windows-latest'
+
+variables:
+    buildPlatform: 'Any CPU'
+    buildConfiguration: 'release'
+    solution: '**/MattProject.HammurabiGame.sln'
+    project: '**/MattProject.HammurabiGame/csproj'
+
+steps:
+- task: NuGetToolInstaller@1
+  name: 'NuGetToolInstaller'
+  displayName: 'Nuget Tool Installer'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'HammurabiGame'
+    publishLocation: 'Container'
