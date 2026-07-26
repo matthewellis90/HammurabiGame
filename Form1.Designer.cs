@@ -1,4 +1,4 @@
-﻿namespace Hammurabi
+namespace Hammurabi
 {
     partial class Form1
     {
@@ -367,4 +367,3 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart AcresChart;
     }
 }
-
