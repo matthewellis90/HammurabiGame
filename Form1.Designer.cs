@@ -308,7 +308,6 @@ namespace Hammurabi
             // 
             // LogoBox
             // 
-            this.LogoBox.BackgroundImage = global::Hammurabi.Properties.Resources.ceria_lebaran_regular;
             this.LogoBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.LogoBox.Location = new System.Drawing.Point(12, 12);
             this.LogoBox.Name = "LogoBox";
