@@ -1,4 +1,4 @@
-📘 HammurabiGame
+📘 Hammurabi Game
 A modernised C# WinForms recreation of the classic Hammurabi resource‑management game — originally built as a university project while learning procedural programming.
 
 🏛️ About the Hammurabi Game
@@ -83,7 +83,6 @@ saving/loading game state
 🚀 Getting Started
 Clone the repository:
 
-bash
 git clone https://github.com/matthewellis90/HammurabiGame.git
 Open the solution in Visual Studio and run the WinForms project.
 
